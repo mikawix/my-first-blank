@@ -4,7 +4,11 @@ import TypescriptSvg from './assets/typescript.svg';
 
 function App() {
     return (
-        <div>
+        <div
+            style={{
+                padding: '2em',
+            }}
+        >
             <h2>Welcome to your App Component 🎉</h2>
             <span>
                 Double click to edit App component
