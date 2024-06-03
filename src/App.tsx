@@ -2,9 +2,14 @@ import styles from './App.module.scss';
 import ViteSvg from './assets/vite.svg';
 import TypescriptSvg from './assets/typescript.svg';
 
-function App() {
+interface AppProps {
+    className?: string;
+}
+
+function App({ className }: AppProps) {
     return (
         <div
+            className={className}
             style={{
                 padding: '2em',
             }}
